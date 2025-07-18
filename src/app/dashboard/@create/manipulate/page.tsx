@@ -8,11 +8,11 @@ import {CreateCarType} from "@/lib/types";
 
 const sampleCarData: CreateCarType = {
     make: "Tesla",
-    model: "Model 002",
+    model: "Model",
     year: 2024,
     price: 35000,
     mileage: 0,
-    description: "Brand new Toyota Camry with excellent features",
+    description: "Brand new Toyota Camry",
     color: "Silver",
     fuel_type: "gasoline",
     transmission: "automatic",

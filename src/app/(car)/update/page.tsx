@@ -1,10 +1,12 @@
-import UpdateCarFormComponent from '@/components/AuthComponents/UpdateCarFormComponent'
+import UpdateCarFormComponent from '@/components/authComponents/UpdateCarFormComponent'
 import React from 'react'
 
-function page() {
+function Update() {
   return (
-    <div><UpdateCarFormComponent/></div>
+    <div>
+      <UpdateCarFormComponent/>
+    </div>
   )
 }
 
-export default page
+export default Update

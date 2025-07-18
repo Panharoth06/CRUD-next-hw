@@ -1,10 +1,12 @@
-import CreateCarFormComponent from '@/components/AuthComponents/CreateCarFormComponent'
+import CreateCarFormComponent from '@/components/authComponents/CreateCarFormComponent'
 import React from 'react'
 
-function page() {
+function Create() {
   return (
-    <div><CreateCarFormComponent/></div>
+    <div>
+      <CreateCarFormComponent/>
+    </div>
   )
 }
 
-export default page
+export default Create

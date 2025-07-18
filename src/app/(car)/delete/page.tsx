@@ -1,7 +1,7 @@
-import DeleteCarFormComponent from '@/components/AuthComponents/DeleteCarFormComponent'
+import DeleteCarFormComponent from '@/components/authComponents/DeleteCarFormComponent'
 import React from 'react'
 
-function page() {
+function Delete() {
   return (
     <div>
         <DeleteCarFormComponent/>
@@ -9,4 +9,4 @@ function page() {
   )
 }
 
-export default page
+export default Delete
